@@ -14,7 +14,7 @@ static float  _desiredCsf = 1.f;
 
 float GAFAsset::desiredCsf()
 {
-    return cocos2d::CC_CONTENT_SCALE_FACTOR();
+    return CC_CONTENT_SCALE_FACTOR();
 }
 
 void GAFAsset::setDesiredCsf(float csf)
